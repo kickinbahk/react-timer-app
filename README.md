@@ -1,1 +1,1 @@
-# React Boilerplate with Foundation
+# React Timer App

@@ -10,4 +10,15 @@ describe('Clock', function () {
   it('should exist', function () {
     expect(Clock).toExist()
   })
+
+  describe('formatSeconds', function () {
+    it('should format seconds', function () {
+      var clock = TestUtils.renderIntoDocument(<Clock />)
+      var seconds = '615'
+      var expected = '10:15'
+      var actual = clock.formatSeconds(seconds)
+
+      expect(actual).toBe(expected)
+    })
+  })
 })

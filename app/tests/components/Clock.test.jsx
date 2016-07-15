@@ -22,5 +22,14 @@ describe('Clock', function () {
 
       expect(actual).toBe(expected)
     })
+
+    it('should format seconds when both min and sec are less than 10', function () {
+      var clock = TestUtils.renderIntoDocument(<Clock />)
+      var seconds = '61'
+      var expected = '01:01'
+      var actual = clock.formatSeconds(seconds)
+
+      expect(actual).toBe(expected)
+    })
   })
 })

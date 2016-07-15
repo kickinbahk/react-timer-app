@@ -1,12 +1,13 @@
 .top-bar {
   padding-bottom: 0px;
-}
-.top-bar, .top-bar ul {
-  background-color: $nav-background;
-}
-.top-bar .menu-text {
-  color: $nav-text-color;
-}
-.top-bar .active-link {
-  font-weight: bold;
+
+  .top-bar ul {
+    background-color: $nav-background;
+  }
+  .menu-text {
+    color: $nav-text-color;
+  }
+  .active-link {
+    font-weight: bold;
+  }
 }

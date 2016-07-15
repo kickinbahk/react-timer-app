@@ -44,5 +44,7 @@
     "style-loader": "^0.13.0",
     "webpack": "^1.13.0"
   },
-  "standard": {}
+  "standard": {
+    "globals": ["describe", "it"]
+  }
 }
